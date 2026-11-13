@@ -1,0 +1,14 @@
+{
+  "name": "meglio-italiano",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node -e \"console.log('Static HTML app: no build needed')\"",
+    "lint": "node --check server.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
